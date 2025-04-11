@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/anatote-hebraico-branco 1.png" type="image/x-icon" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- ---- HEADER ---- -->
+
+        <nav id="header">
+            <div class="nav-logo">
+                <a href="home.html"><label class="nav-name">CAMPO <span>Anatote</span> IGREJA </label></a>
+            </div>
+            <div class="nav" id="myNavMenu">
+                <ul class="nav_menu_list">
+                  <li class="nav_list">
+                    <a href="dizimo.html" class="nav-link">Dizimo</a>
+                  </li>
+                  <li class="nav_list">
+                    <a href="dosedeesperança.html" class="nav-link">Doação</a>
+                  </li>
+                  <li class="nav_list">
+                    <a href="calendario.html" class="nav-link">Eventos</a>
+                    <div class="circle"></div>
+                  </li>
+                  <li class="nav_list">
+                    <a href="pastores.html" class="nav-link">Pastores</a>
+                  </li>
+                  <!--<li class="nav_list">
+                    <a href="cadastro.html" class="nav-link">Seja Membro</a>
+                  </li>-->
+                  <li class="nav_list">
+                    <a href="login.html" class="nav-link">Sou Membro</a>
+                  </li>
+        
+        
+                </ul>
+              </div>
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <div class="image2">
+                <img src="img/anatote-hebraico-branco 1.png" alt="avatar">
+            </div>
+            <form class="cadastro-form" action="home.html">
+                <div class="form-esquerda">
+                    <h4>Seja um voluntário:</h4>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu E-mail" required />
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua Senha" required />
+
+                    <label for="confirma-senha">Confirme sua Senha</label>
+                    <input type="password" id="confirma-senha" placeholder="Digite sua Senha" required />
+                </div>
+
+                <div class="form-direita">
+                    <div class="linha-nome">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome" required />
+                        </div>
+                        <div>
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required />
+                        </div>
+                    </div>
+
+                    <label>Gênero</label>
+                    <div class="genero">
+                        <label><input type="radio" name="genero" /> Masculino</label>
+                        <label><input type="radio" name="genero" /> Feminino</label>
+                        <label><input type="radio" name="genero" /> Prefiro não dizer</label>
+                    </div>
+
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" id="nascimento" max="2025-04-25" required />
+                </div>
+
+
+
+                <button class="btn2" type="submit">Cadastrar</button>
+
+            </form>
+
+
+            
+
+            <!-- ---- TYPE JS LINK ---- -->
+
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+            <!-- ---- SCROLL REVEAL JS ---- -->
+
+            <script src="https://unpkg.com/scrollreveal"></script>
+
+            <!-- ---- MAIN JS ---- -->
+            <script src="js/main.js"></script>
+</body>
+
+</html>
